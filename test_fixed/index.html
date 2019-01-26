@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div id="circle">
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="cover_inputs">
+                <div class="top_conteroller">
+                    <button id="up_left" class="left_btn"> ^
+                        < </button>
+                            <button id="up"> ^
+                            </button>
+                            <button class="right_btn" id="up_right"> > ^ </button>
+                </div>
+                <div class="center_controller">
+                    <button class="left_btn" id="left">
+                        < </button>
+                    </button>
+                    <button id="hidden" style="border: none; outline: none; ">
+                    </button>
+                    <button id="right" class="right_btn"> > </button>
+                </div>
+                <div class="bottom_controoler">
+                    <button class="left_btn" id="down_left">
+                        v
+                        <</button>
+                            <button id="down"> v
+                            </button>
+                            <button id="down_right" class="right_btn"> > v </button>
+                </div>
+
+                <div class="reset">
+                    <button id="reset_btn">Reset</button>
+                </div>
+            </div>
+            <form class="diameter_controller">
+                <label for="input_diameter">Current size of Diameter:</label>
+                <br>
+                <input id="input_diameter" value="20" type="number">
+                <br>
+                <button id="set_diameter" value="submit">Set new Diameter</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
